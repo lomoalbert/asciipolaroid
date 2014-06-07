@@ -48,7 +48,7 @@ class DropArea(Gtk.Image):
             '''file:///home/albert/Pictures/__0155.jpg\r\n'''
             uri=text.split('\r\n')[0]
             image=urllib.unquote(uri.replace('file://',''))
-            print image
+            print(image)
             sys.stdout.flush()
             asciicode=p2a(image)
             sys.stdout.flush()
