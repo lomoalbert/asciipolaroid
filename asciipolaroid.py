@@ -56,7 +56,7 @@ class DropArea(Gtk.Image):
             textbuffer.set_text(asciicode)
 
 builder = Gtk.Builder()
-builder.add_from_file("pailide.glade")
+builder.add_from_file("asciipolaroid.glade")
 
 window = builder.get_object("window1")
 
